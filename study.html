@@ -3,32 +3,31 @@
 
 <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="mystyle.css">
+       
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
                 crossorigin="anonymous">
-
+                <link rel="stylesheet" type="text/css" href="mystyle.css" id="changeable_styles">
+                <script> 
+                                function setCookie(a,b,c){if(c){var d=new Date();d.setTime(d.getTime()+(c*24*60*60*1000));var e="; expires="+d.toGMTString()}else var e="";document.cookie=a+"="+b+e+"; path=/"};function getCookie(a){var b=a+"=";var d=document.cookie.split(';');for(var i=0;i<d.length;i++){var c=d[i];while(c.charAt(0)==' ')c=c.substring(1,c.length);if(c.indexOf(b)==0)return c.substring(b.length,c.length)}return null};function eraseCookie(a){setCookie(a,"",-1)}; 
+                                </script>
         <title> Document </title>
 </head>
 
 <body>
         <div class="str">
-                <ul id="navbar">
-                        <li><a href="index.html"><img src="Posters//triangle.png" width="20" height="20" alt="triangle"></a>
-                        </li>
-                        <li><a href="index.html#yak1">About me</a>
-
-                                <ul>
-
-                                        <li><a href="index.html#yak2">Hometown</a></li>
-
-                                </ul>
-                        </li>
-                        <li><a href="study.html">Study</a></li>
-                        <li><a href="travel.html">Travel</a></li>
-                        <li><a href="3d.html">3D models</a></li>
-                        <li><a href="my2.html"><img src="Posters//triangle.png" width="20" height="20" alt="triangle"></a>
-                        </li>
-                </ul>
+                        <ul id="bar">
+                                        <li>     <input  type="image" img src="Posters//triangle.png" width="30" height="30" onclick="setCookie('color_of_style', 'стиль', 365); document.getElementById('changeable_styles').href = 'mystyle.css';" value="название"> </li>
+                                     <li><a href="index.html#yak1">About me</a>
+                                             <ul>
+                                                     <li><a href="index.html#yak2">Hometown</a></li>
+                                             </ul>
+                                     </li>
+                                     <li><a href="study.html">Study</a></li>
+                                     <li><a href="travel.html">Travel</a></li>
+                                     <li><a href="3d.html">3D models</a></li>
+                                     <li>  <input type="image" img src="Posters//triangle.png"  width="30" height="30" onclick="setCookie('color_of_style', 'стиль', 365); document.getElementById('changeable_styles').href = 'style.css';" value="название"> </li>
+                                    
+                             </ul>
 
                 <h3 class="Kh"> I study at the National Technical University "Kharkiv Polytechnic Institute" on the 4th
                         year in computer science.
@@ -53,7 +52,7 @@
                         <td>98</td>
                         </tr>
                         <tr>
-                                <td> Mechanical system oscillations </td>
+                                <td> Колебания механических систем </td>
                                 <td><a href="http://web.kpi.kharkov.ua/dpm/ru/trubaev-aleksandr-ivanovich/">Trubaev
                                                 A.I.</a></td>
                                 <td>98</td>
@@ -114,7 +113,18 @@
 
 
 
+        <script> 
+                        +function() { 
+                        std = 'mystyle.css'; // стандартные стили 
+                        if(getCookie('color_of_style')){var color=getCookie('color_of_style')}else{var color=std};document.getElementById('changeable_styles').href=color; 
+                        }(); 
+                        </script>
 
+        <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="owl-carousel/owl.carousel.js"></script>
+        <script src="my.js"></script>
 
 
 </body>
