@@ -167,7 +167,7 @@ h1 {
 	
 	}
 h1 span {
-    color:rgb(255, 255, 255);
+    color:rgb(225, 37, 37);
     -webkit-text-stroke: 1px black;
     font-size: 60px;
     font-family: Helvetica Neue;
@@ -182,7 +182,7 @@ h1 span {
         
         }
     h2 span {
-        color:rgb(255, 255, 255);
+        color:rgb(225, 37, 37);
         -webkit-text-stroke: 1px black;
         font-size: 60px;
         font-family: Helvetica Neue;
