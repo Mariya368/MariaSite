@@ -1,115 +1,161 @@
+body {position: absolute; padding: 10px; background-color:rgb(198, 198, 198); font-family: Helvetica Neue; font-weight: 100; width: 100%;}
 
-body {
-  position: absolute; padding: 10px; 
-  background-color:rgb(198, 198, 198); font-family: Helvetica Neue; font-weight: 100; width: 100%;}
+div {  
+  width: 1000px; 
+  background-color: rgb(142, 142, 142); 
+  margin: auto;}
+
+  
 p {background-color: ; text-align: left; margin: 0px}
 h3 {color: rgb(6, 198, 124); font-weight: 400; font-size: 27px; text-align: left; padding-left: 40px; padding-right: 40px;}
 h4 {color:rgb(6, 198, 124);text-align: center; text-transform: uppercase;}
 h5 {color:rgb(255, 255, 255); text-align: left; padding-left: 10px; font-size: 15px; font-weight: 200}
+
+
+.mov {text-align: center }
 .Kh{color:white ; font-size: 25px; font-weight: 400; text-align: left; padding-left: 40px; padding-right: 40px;}
-
-.sketchfab-embed-wrapper iframe {width: 800px; height: 600px;}
-.sketchfab-embed-wrapper {text-align: center;}
-
-
 .USA {color:white ; -webkit-text-stroke: 2px black; text-align: center; font-size: 100px; font-weight: 500; padding-top: 60px;}
 .us{color:white ; font-size: 30px; font-weight: 400; text-align: left; padding-left: 40px; padding-right: 40px;}
 
 
+
 a:visited {color: #000000;}
-a:link {color: #000000;}
+a:link {color: black;}
 a:active {color: rgb(6, 198, 124)}
 
-.stat {text-align: center; font-size: 180%;}
-
-.mov {text-align: center }
-
-.owl-carousel {display: inline}
-
-.owl-pagination {
-  display: flex;
- 
-}
-
-tr:hover {
-  background-color: #666;
-}
-
-
-.owl-page {
-  background-color: #666;
-}
-
-.lol {
-  border: 1px solid white;
-  height: 450px;
-  width: 900px;
-  margin: auto;
-  position: relative;
-  text-align: center;
-  font-size: 3em;
-  z-index: 1;
-}
-
-video {
-  position: absolute;
-  height: 450px;
-  width: 900px;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  z-index: -1;
-}
-
-
-.one {
-  display: inline;
-  padding-left: 150px;
-  font-size: 180%;
-  color:#fff;
-}
-.two {
-  display: inline;
-  padding-left: 220px;
-  font-size: 180%;
-  color:#fff;
-}
-.three {
-  display: inline;
-  padding-left: 220px;
-  font-size: 180%;
-  color:#fff;
-}
-
-
-
-
-
-
-
-
-.owl-carousel img {
-  height: 600px; width: 950px; padding-left: 25px; 
-}
-
-div {  
-width: 1000px; 
-background-color: rgb(142, 142, 142); 
-margin: auto;}
-
- {height: 750px ; width: 1200px ; }
-
-.contacs {
-  font-size: 50px;
-}
-
-
+tr:hover {background-color: #666;}
 
 .classes a:visited {color: #fff}
 .classes a:active {color: rgb(255, 255, 255);}
 .classes a:link {color: #fff}
+
+
+
+
+#bar ul { display: none;}
+#bar li:hover ul { display: block; }
+
+#bar, #bar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none ;
+}
+#bar li { float: left; }
+#bar ul li { float: none; }
+
+
+#bar ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+#bar li {
+  float: left;
+  position: relative;
+}
+#bar { height: 30px; }
+
+#bar ul {
+  display: none;
+  background-color: rgb(69, 171, 127);
+  position: absolute;
+  top: 100%;
+}
+#bar li:hover ul { display: block; }
+#bar, #bar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#bar {
+  height: 30px;
+  background-color: #666;
+  padding-left: 240px;
+  min-width: 470px;
+}
+#bar li {
+  float: left;
+  position: relative;
+  height: 100%;
+}
+#bar li a {
+  display: block;
+  padding: 6px;
+  width: 100px;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  text-decoration: none;
+  text-align: center;
+}
+#bar ul li { float: none; }
+#bar li:hover { background-color: rgb(6, 198, 124);}
+#bar ul li:hover { background-color: #666; }
+
+
+.image {
+	position: relative;
+  width: 100%; /* для IE 6 */
+  }
+  
+  .image img {
+    width: 900px;
+    height: 600px;
+    padding-left: 50px;
+    padding-right: 50px;
+  
+  }
+
+h1 {
+	position: absolute;
+	top: 200px;
+	left: 220px;
+	}
+h1 span {
+    color:rgb(255, 255, 255);
+    -webkit-text-stroke: 1px black;
+    font-size: 60px;
+    font-family: Helvetica Neue;
+	line-height: 55px;
+	padding: 10px 10px 10px 16px;
+    }
+    
+    h2 {
+        position: absolute;
+        top: 260px;
+        left: 110px;
+        }
+    h2 span {
+        color:rgb(255, 255, 255);
+        -webkit-text-stroke: 1px black;
+        font-size: 60px;
+        font-family: Helvetica Neue;
+        line-height: 55px;
+        padding: 10px 10px 10px 16px;
+        }
+        
+
+        span {color: #666;}
+
+
+
+
+
+.stat {text-align: center; font-size: 180%;}
+
+.one {
+  text-align: center;
+  word-spacing: 220px;
+   font-size: 180%;
+   color:#fff;
+ }
+
+ .imgss img {height: 300px; width: 300px; }
+ .imgss {text-align: center; }
+ 
+
+
+
+
 
 
 table {
@@ -143,123 +189,44 @@ table {
   border-bottom-right-radius: 20px;
   }
   
-.imgss img {height: 300px; width: 300px; }
-.imgss {text-align: center}
 
-.image {
-	position: relative;
-  width: 100%; /* для IE 6 */
+
+
   
-  }
-  
-  .image img {
+
+
+
+  .lol {
+    border: 1px solid white;
+    height: 450px;
     width: 900px;
-    height: 600px;
-    padding-left: 50px;
-    padding-right: 50px;
-  
+    margin: auto;
+    position: relative;
+    text-align: center;
+    font-size: 3em;
+    z-index: 1;
   }
-
-h1 {
-	position: absolute;
-	top: 200px;
-	left: 220px;
-	
-	}
-h1 span {
-    color:rgb(255, 255, 255);
-    -webkit-text-stroke: 1px black;
-    font-size: 60px;
-    font-family: Helvetica Neue;
-	line-height: 55px;
-	padding: 10px 10px 10px 16px;
-    }
-    
-    h2 {
-        position: absolute;
-        top: 260px;
-        left: 110px;
-        
-        }
-    h2 span {
-        color:rgb(255, 255, 255);
-        -webkit-text-stroke: 1px black;
-        font-size: 60px;
-        font-family: Helvetica Neue;
-        line-height: 55px;
-        padding: 10px 10px 10px 16px;
-        }
-        
-
-#navbar ul { display: none;}
-#navbar li:hover ul { display: block; }
-
-#navbar, #navbar ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none ;
-}
-#navbar li { float: left; }
-#navbar ul li { float: none; }
-
-
-#navbar ul {
-  display: none;
-  position: absolute;
-  top: 100%;
-}
-#navbar li {
-  float: left;
-  position: relative;
-}
-#navbar { height: 30px; }
-
-#navbar ul {
-  display: none;
-  background-color: rgb(69, 171, 127);
-  position: absolute;
-  top: 100%;
-}
-#navbar li:hover ul { display: block; }
-#navbar, #navbar ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-#navbar {
-  height: 30px;
-  background-color: #666;
-  padding-left: 162px;
-  min-width: 470px;
-}
-#navbar li {
-  float: left;
-  position: relative;
-  height: 100%;
-}
-#navbar li a {
-  display: block;
-  padding: 6px;
-  width: 100px;
-  color: rgb(255, 255, 255);
-  font-weight: 300;
-  text-decoration: none;
-  text-align: center;
-}
-#navbar ul li { float: none; }
-#navbar li:hover { background-color: rgb(6, 198, 124); }
-#navbar ul li:hover { background-color: #666; }
-
-
-
-
-
-
-
-
-
+  
+  video {
+    position: absolute;
+    height: 450px;
+    width: 900px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: -1;
+  }
   
   
+
+
+
+
+
+
+
   .carousel {
     position: relative; /*Кнопки наличие??*/
     width: 800px; /* Ширина рамки*/
@@ -330,6 +297,25 @@ h1 span {
   }
 
 
+
+
+
+
+
+
+
+
+  .owl-carousel img {
+    height: 600px; width: 950px; padding-left: 25px; 
+  }
+  
+  .owl-carousel {display: inline}
+  
+  .owl-pagination {display: flex;}
+  
+  .owl-page {background-color: #666;}
+  
+
   $(document).ready(function(){
 	
     /* Находим блок карусели*/
@@ -354,6 +340,18 @@ h1 span {
   }
 
 
+
+
+  .sketchfab-embed-wrapper iframe {width: 800px; height: 600px;}
+  .sketchfab-embed-wrapper {text-align: center;}
+
+
+  
+
+  .contacs {
+    font-size: 50px;
+  }
+  
 
 
   
