@@ -1,8 +1,8 @@
-body {position: absolute; padding: 10px; background-color:rgb(198, 198, 198); font-family: Helvetica Neue; font-weight: 100; width: 100%;}
+body {position: absolute; padding: 10px; background-color:rgb(198, 198, 198); font-family: Helvetica Neue; font-weight: 100; width: 90%;}
 
 div {  
   width: 1000px; 
-  background-color: rgb(142, 142, 142); 
+  background-color: rgb(198, 198, 198); 
   margin: auto;}
 
   
